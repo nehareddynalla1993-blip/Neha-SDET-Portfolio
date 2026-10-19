@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node", "@wdio/globals/types", "@wdio/cucumber-framework"],
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["wdio.conf.ts", "pages/**/*.ts", "step-definitions/**/*.ts"]
+}

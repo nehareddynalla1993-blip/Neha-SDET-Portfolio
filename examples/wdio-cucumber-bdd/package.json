@@ -1,0 +1,22 @@
+{
+  "name": "wdio-cucumber-identity-bdd-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "WebdriverIO Cucumber BDD and Page Objects for a fictional identity UI",
+  "type": "module",
+  "scripts": {
+    "test": "node run.mjs",
+    "wdio": "wdio run wdio.conf.ts"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.0.0",
+    "@wdio/globals": "^9.0.0",
+    "@wdio/local-runner": "^9.0.0",
+    "@wdio/cucumber-framework": "^9.0.0",
+    "@wdio/spec-reporter": "^9.0.0",
+    "@wdio/types": "^9.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "webdriverio": "^9.0.0"
+  }
+}

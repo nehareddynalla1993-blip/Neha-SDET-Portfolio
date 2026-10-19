@@ -1,0 +1,16 @@
+{
+  "name": "playwright-identity-workflows-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Playwright UI and API security workflow checks against a fictional local identity service",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test identity-api.spec.ts",
+    "test:ui": "playwright test identity-ui.spec.ts",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
