@@ -1,51 +1,77 @@
-# Neha R. — SDET & QA Automation Portfolio
+# Neha R. | Senior SDET & QA Automation Lead
 
-[![Quality](https://img.shields.io/badge/Focus-Quality%20Engineering-43d8a8)](#projects) [![Playwright](https://img.shields.io/badge/Playwright-TypeScript-5fe5c0)](examples/playwright-identity-workflows/) [![BDD](https://img.shields.io/badge/BDD-WebdriverIO-aaa1ff)](examples/wdio-cucumber-bdd/)
+**10+ years in quality engineering** · Enterprise banking & healthcare · Web and mobile applications
 
-**Senior SDET / QA Automation Lead** with **10+ years** in test automation and quality engineering across enterprise banking and healthcare applications.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Website-70f0cc?style=flat-square)](https://nehareddynalla1993-blip.github.io/Neha-SDET-Portfolio/)
+[![UI Automation](https://img.shields.io/badge/UI-WebdriverIO%20%7C%20Playwright-aaa1ff?style=flat-square)](#technical-expertise)
+[![API Testing](https://img.shields.io/badge/API-Postman%20%7C%20Karate-70f0cc?style=flat-square)](#technical-expertise)
 
-**Highlights:** WebdriverIO · TypeScript · Selenium · Playwright · Cucumber BDD · API testing · Postman · Karate · Jenkins · GitHub · security-conscious test design · CI/CD.
+> **I build automation that teams can maintain, trust, and use to release software with confidence.**
 
-This repository contains a recruiter-friendly **portfolio website** and two fictional, original automation examples. Its content is designed to demonstrate engineering style and test design without revealing proprietary client implementation details.
+I'm Neha R., a senior SDET and QA automation lead focused on scalable test frameworks, practical test coverage, and dependable CI/CD feedback. My experience spans enterprise banking, healthcare, web and mobile testing, API integration, identity workflows, and collaboration with distributed QA teams.
 
-## Projects
+I enjoy solving testing problems that don't disappear after the first successful run: flaky scenarios, shared test-data conflicts, brittle page objects, authentication failures, slow regression suites, and confusing CI reports.
 
-| Project | Technologies | What a reviewer can see |
+**🌐 Portfolio website:** [https://nehareddynalla1993-blip.github.io/Neha-SDET-Portfolio/](https://nehareddynalla1993-blip.github.io/Neha-SDET-Portfolio/) *(available after GitHub Pages is enabled)*  
+**💻 GitHub profile:** [github.com/nehareddynalla1993-blip](https://github.com/nehareddynalla1993-blip)
+
+## What I bring to a team
+
+- **Hands-on engineering:** Reusable TypeScript automation, Cucumber BDD workflows, Playwright and Selenium tests, and API-level validation.
+- **Framework ownership:** Page-object design, shared steps, data-driven testing, test fixtures, environment configuration, and code reviews.
+- **Release readiness:** CI execution, failure classification, debugging, SonarQube/Jenkins troubleshooting, and risk-based regression decisions.
+- **Identity and security awareness:** SSO, MFA, OAuth/OIDC, RBAC, session handling, and negative authorization checks.
+- **QA leadership:** Planning test coverage, mentoring teammates, coordinating across onshore/offshore teams, and communicating quality risks.
+- **Modern testing:** Exploring AI-assisted testing, GenAI quality considerations, and pragmatic tools that improve automation maintainability.
+
+## Featured work samples
+
+| Work sample | Technologies | What it demonstrates |
 |---|---|---|
-| [Identity & Access Testing Lab](examples/playwright-identity-workflows/) | Playwright, TypeScript, REST APIs | MFA, RBAC `403`/`401`, provisioning, token revocation, UI checks |
-| [Reusable BDD Test Framework](examples/wdio-cucumber-bdd/) | WebdriverIO, Cucumber, TypeScript, Page Objects | Gherkin scenarios, reusable locators, role-based UI expectations |
+| [Identity & Access Testing Lab](examples/playwright-identity-workflows/) | Playwright · TypeScript · REST API | Authentication, MFA, provisioning, permission boundaries, token invalidation, API and UI test layers |
+| [Reusable BDD Test Framework](examples/wdio-cucumber-bdd/) | WebdriverIO · Cucumber · TypeScript | Page objects, Gherkin, step definitions, role-specific scenarios, reusable framework structure |
+| [Regression Reliability Playbook](case-studies/regression-reliability-playbook.md) | QA strategy · Jenkins · test data | How I think about flaky tests, account pools, failure triage, test layering, and release confidence |
 
-Both examples use the same [fictional demo Identity Desk](demo-app/), which has **synthetic users only**. A CI workflow runs basic Node smoke checks and Playwright checks. The WebdriverIO example is also provided with local run instructions.
+**These are original educational examples and an illustrative strategy document.** They demonstrate how I approach quality engineering; they are not copies of client code or evidence that a specific production system used these exact implementations.
 
-## Preview the portfolio
+## Technical expertise
 
-Open [`index.html`](index.html) in a browser. The portfolio is a static webpage built with HTML, CSS and JavaScript; it works without a build step.
+| Area | Tools & practices |
+|---|---|
+| UI and mobile automation | WebdriverIO, TypeScript, Selenium, Playwright, Cypress, Cucumber BDD, Perfecto |
+| API and integration testing | Postman, Karate, REST APIs, request/response assertions, authentication validation |
+| Identity workflows | Okta, SSO, MFA, OAuth 2.0, OIDC, SAML, RBAC, session management |
+| Programming | TypeScript, JavaScript, Java, Python, SQL; working knowledge of C# |
+| CI/CD and engineering workflow | Jenkins, GitHub, GitHub Actions, SonarQube, Azure DevOps, Jira |
+| Automation design | Page Object Model, shared utilities, data-driven tests, failure triage, risk-based coverage |
 
-## How to publish
+## Certifications
 
-Follow **[PUBLISHING.md](PUBLISHING.md)**. It covers creating your first GitHub repository, uploading this project, enabling GitHub Pages, and personalizing GitHub / LinkedIn / email links.
+- Okta Certified Professional
+- ISTQB
+- Salesforce Certified Administrator
+- Salesforce Platform Developer I
 
-Once published using the recommended repository name, your public links will follow these formats:
+## Explore or run the code
 
-- GitHub: `https://github.com/YOUR_GITHUB_USERNAME/neha-sdet-portfolio`
-- Portfolio: `https://YOUR_GITHUB_USERNAME.github.io/neha-sdet-portfolio/`
+The portfolio site is [`index.html`](index.html), a lightweight HTML/CSS/JavaScript page with no build step.
 
-## Verify the example application
-
-Requirements: Node.js 20+.
+Requirements for the demonstration service: **Node.js 20+**.
 
 ```bash
 node --test demo-app/tests/*.test.mjs
 node demo-app/server.mjs
-# Open http://127.0.0.1:4173
+# Then open http://127.0.0.1:4173
 ```
 
-To run the browser automation, see each project's README for installation and run commands.
+See the individual sample folders for the Playwright and WebdriverIO commands. CI checks are defined in [`.github/workflows/automation.yml`](.github/workflows/automation.yml).
 
-## Recruiter note
+## About these projects
 
-The portfolio intentionally showcases **original demonstration code**, not code copied from current or former employers. Prior team accomplishments, employer/client work, certifications, and production integrations should be verified separately rather than inferred from the sample project.
+I created these portfolio demonstrations to share test-design patterns without disclosing employer or customer information. All application personas and data in the samples are fictional. The strategy playbook is an independent example, not a description of proprietary internal processes.
 
-## Public profile customization
+## Contact and opportunities
 
-Edit `PUBLIC_PROFILE` near the bottom of `index.html` after publication: fill in your GitHub username, LinkedIn profile URL and preferred public-facing email address. The email can be left blank if you don't want to publish it online.
+I am interested in **senior SDET, QA automation lead, test architecture, and quality engineering** opportunities. Review my code here or connect through my [GitHub profile](https://github.com/nehareddynalla1993-blip). LinkedIn and public email links can be added to the website once confirmed.
+
+To publish the website, see [PUBLISHING.md](PUBLISHING.md).
